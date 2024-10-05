@@ -447,7 +447,7 @@ button {
 }
 .footer-list {
   display: flex;
-  /*justify-content: center;*/
+
   gap: 16px;
 }
 .footer-item {
@@ -471,3 +471,29 @@ button {
 .social-footer-link:focus {
   background-color: #31d0aa;
 }
+/*===============modal backdrop style====================*/
+.modal-backdrop {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 99999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(46, 47, 66, 0.4);
+}
+.modal {
+  width: 408px;
+  height: 80%;
+  max-height: 584px;
+  overflow: auto;
+  padding: 72px 24px 24px 24px;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
+    0 2px 1px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fcfcfc;
+}
+
+/*===============modal backdrop style====================*/
