@@ -485,6 +485,7 @@ button {
   background-color: rgba(46, 47, 66, 0.4);
 }
 .modal {
+  position: relative;
   width: 408px;
   height: 80%;
   max-height: 584px;
@@ -495,5 +496,13 @@ button {
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
   background-color: #fcfcfc;
 }
-
+.modal-close-btn {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  background-color: transparent;
+  border: none;
+  line-height: 0;
+  padding: 0;
+}
 /*===============modal backdrop style====================*/
